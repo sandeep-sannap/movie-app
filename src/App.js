@@ -8,6 +8,7 @@ import MovieDetails from "./components/movie-detail/MovieDetails";
 import PageNotFound from "./components/404/PageNotFound";
 
 function App() {
+  console.log(process.env.REACT_APP_MOVIE_API_KEY);
   return (
     <div>
       <Router>
